@@ -3,15 +3,13 @@ manifest:
     revision: v0.3
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    # 1. Add the mctechnology17 remote base URL
+      url_base: https://github.com/zmkfirmware
     - name: mctechnology17
-      url-base: https://github.com
+      url_base: https://github.com/mctechnology17
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-    # 2. Add the nice-oled module project repository
     - name: zmk-nice-oled
       remote: mctechnology17
       revision: main
