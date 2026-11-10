@@ -3,9 +3,9 @@ manifest:
     revision: v0.3
   remotes:
     - name: zmkfirmware
-      url_base: https://github.com/zmkfirmware
+      url-base: https://github.com
     - name: mctechnology17
-      url_base: https://github.com/mctechnology17
+      url-base: https://github.com
   projects:
     - name: zmk
       remote: zmkfirmware
